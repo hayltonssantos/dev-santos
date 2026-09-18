@@ -4,7 +4,13 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Haylton Santos | Junior Fullstack Developer',
-  description: 'Portfólio profissional de Haylton Santos, Junior Fullstack Developer com foco em Frontend e desenvolvimento de aplicações web.',
+  description: 'Portfólio de Haylton Santos, Junior Fullstack Developer com foco em aplicações web, React, Firebase e evolução para Fullstack.',
+  openGraph: {
+    title: 'Haylton Santos | Junior Fullstack Developer',
+    description: 'Projetos, tecnologias e trajetória profissional de Haylton Santos.',
+    type: 'website',
+    locale: 'pt_PT',
+  },
   generator: 'v0.app',
   icons: {
     icon: [

@@ -106,7 +106,7 @@ export const translations = {
       },
     },
     contact: {
-      title: 'Let\'s connect',
+      title: 'Vamos conversar',
       subtitle: 'Estou aberto a novas oportunidades na área de desenvolvimento web.',
       email: 'Email',
       github: 'GitHub',
