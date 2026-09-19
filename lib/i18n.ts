@@ -99,15 +99,15 @@ export const translations = {
       title: 'Experiência',
       it_support: {
         role: 'Estagiário Dev. Front End — InforAntunes',
-        description: '2024 – Atual · Manutenção de equipamentos de informática, suporte a utilizadores em hardware e software e desenvolvimento de sites e WebApps.',
+        description: '2024 – Atual · Desenvolvimento de websites responsivos e interfaces usando React, JavaScript, HTML5 e CSS3, garantindo compatibilidade mobile.\nImplementação de funcionalidades em Firebase (autenticação de usuários e CRUD em Firestore) em projetos internos.\n',
       },
       web_dev: {
         role: 'Auxiliar Administrativo — Elis',
-        description: '2023 – 2024 · Administração de documentos, controle de estoque e confecção de CMRs.',
+        description: '2023 – 2024 · Gerenciamento de documentação e controle de estoque, otimizando processo de arquivamento.\nPreparação de arquivos (CMR) e apoiou comunicação interna, desenvolvendo organização e atenção a detalhes.',
       },
       help_desk: {
         role: 'Help Desk — OLX Brasil / Bom Negócio LTDA',
-        description: '2020 – 2022 · Manutenção de equipamentos de informática e suporte a utilizadores em hardware e software.',
+        description: '2020 – 2022 · Realização de manutenção de computadores e suporte técnico (hardware/software) a usuários internos.\nRespondi chamados de suporte, diagnosticando e solucionando problemas com eficiência.',
       },
       education: 'Bacharelado em Análise e Desenvolvimento de Sistemas — em andamento · Universidade Carioca · 2019 – Atual',
       secondary_education: '12º ano concluído · Escola Estadual Dom Helder · 2013 – 2014',
