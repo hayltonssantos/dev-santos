@@ -25,7 +25,7 @@ export const translations = {
     hero: {
       greeting: 'Olá, eu sou',
       subtitle:
-        'Desenvolvedor web focado em criar aplicações modernas, responsivas e funcionais, com experiência em Frontend e conhecimentos em Backend.',
+        'Junior Fullstack Developer com experiência prática em Frontend, especialmente com React, JavaScript, HTML, CSS e Firebase, atualmente ampliando conhecimentos em Backend e aplicações web modernas.',
       cta_projects: 'Ver projetos',
       cta_cv: 'Download CV',
       social_github: 'GitHub',
@@ -37,7 +37,7 @@ export const translations = {
         name: 'Ponto Pro',
         description: 'Aplicação web para controle de ponto e gestão de colaboradores/projetos',
         problem: 'Gerenciamento simplificado de presença e atribuição de projetos',
-        tech: ['React', 'JavaScript', 'Firebase', 'Firestore', 'GPS'],
+        tech: ['React', 'JavaScript', 'Firebase Auth', 'Firestore', 'GPS', 'HTML', 'CSS', 'Git'],
         view: 'Ver Projeto',
         github: 'GitHub',
       },
@@ -45,7 +45,7 @@ export const translations = {
         name: 'Marca Já',
         description: 'Aplicação web para gestão e agendamento de barbearias',
         problem: 'Organização de horários e gestão de serviços',
-        tech: ['React', 'JavaScript', 'Firebase', 'CSS'],
+        tech: ['React', 'JavaScript', 'Firebase', 'HTML', 'CSS', 'Git'],
         view: 'Ver Projeto',
         github: 'GitHub',
       },
@@ -53,7 +53,7 @@ export const translations = {
         name: 'Sistema de Licenças',
         description: 'Aplicação web para gerenciamento de licenças',
         problem: 'Controle centralizado de licenças e suas validações',
-        tech: ['React', 'JavaScript', 'Firebase', 'APIs'],
+        tech: ['React', 'JavaScript', 'Firebase', 'APIs', 'Git'],
         view: 'Ver Projeto',
         github: 'GitHub',
       },
@@ -76,7 +76,8 @@ export const translations = {
         nodejs: 'Desenvolvimento de serviços e aplicações backend utilizando JavaScript no servidor.',
         typescript: 'Desenvolvimento de aplicações mais seguras e previsíveis através de tipagem estática.',
         apis: 'Integração entre aplicações e serviços através de APIs.',
-        firebase: 'Autenticação, Firestore, hosting e serviços backend para aplicações web.',
+        firebase: 'Firebase Authentication, Firestore e Hosting integrados a aplicações React.',
+        python: 'Linguagem presente na minha formação e no meu conjunto de tecnologias.',
       },
       database: {
         title: 'Database',
@@ -92,18 +93,24 @@ export const translations = {
     },
     about: {
       title: 'Sobre mim',
-      text: 'Minha trajetória na tecnologia começou na área de suporte de TI, onde desenvolvi experiência com suporte técnico, hardware, software, manutenção de computadores e resolução de problemas.\n\nCom o tempo, passei a direcionar minha carreira para o desenvolvimento de software, aprofundando meus conhecimentos em desenvolvimento web e construindo aplicações utilizando tecnologias como JavaScript, React, Firebase e outras ferramentas modernas do ecossistema web.\n\nAtualmente, meu foco está no desenvolvimento Fullstack, com especial atenção à criação de interfaces modernas, responsivas e funcionais, enquanto continuo expandindo meus conhecimentos em Backend, bancos de dados, APIs, TypeScript, Node.js e arquitetura de aplicações.\n\nGosto de transformar problemas em soluções simples, funcionais e bem estruturadas, e estou sempre buscando aprender novas tecnologias através de projetos práticos.',
+      text: 'Comecei minha experiência profissional em suporte de TI, trabalhando com hardware, software, manutenção e atendimento a utilizadores.\n\nEm Portugal, também tive experiência administrativa, desenvolvendo organização e atenção ao detalhe. Depois, na InforAntunes, passei a atuar como Estagiário Dev. Front End, trabalhando no desenvolvimento de sites e WebApps.\n\nParalelamente, desenvolvi projetos próprios como Ponto Pro, Marca Já e Sistema de Licenças para aprofundar conhecimentos em React, JavaScript e Firebase. Atualmente, estou expandindo minha atuação para Fullstack, estudando Backend, TypeScript, Node.js, APIs e bases de dados.',
     },
     experience: {
       title: 'Experiência',
       it_support: {
-        role: 'Técnico de Informática / IT Support',
-        description: 'Suporte técnico, atendimento a utilizadores, hardware, software, manutenção de computadores, resolução de problemas, suporte remoto e presencial.',
+        role: 'Estagiário Dev. Front End — InforAntunes',
+        description: '2024 – Atual · Manutenção de equipamentos de informática, suporte a utilizadores em hardware e software e desenvolvimento de sites e WebApps.',
       },
       web_dev: {
-        role: 'Desenvolvimento Web / Fullstack',
-        description: 'React, JavaScript, Firebase, desenvolvimento de aplicações, APIs, Git, desenvolvimento de interfaces responsivas.',
+        role: 'Auxiliar Administrativo — Elis',
+        description: '2023 – 2024 · Administração de documentos, controle de estoque e confecção de CMRs.',
       },
+      help_desk: {
+        role: 'Help Desk — OLX Brasil / Bom Negócio LTDA',
+        description: '2020 – 2022 · Manutenção de equipamentos de informática e suporte a utilizadores em hardware e software.',
+      },
+      education: 'Bacharelado em Análise e Desenvolvimento de Sistemas — em andamento · Universidade Carioca · 2019 – Atual',
+      secondary_education: '12º ano concluído · Escola Estadual Dom Helder · 2013 – 2014',
     },
     contact: {
       title: 'Vamos conversar',
@@ -112,6 +119,8 @@ export const translations = {
       github: 'GitHub',
       linkedin: 'LinkedIn',
       cv: 'Download CV',
+      phone: '+351 964 337 343',
+      location: 'Torres Vedras, Portugal',
     },
   },
   en: {
@@ -132,7 +141,7 @@ export const translations = {
     hero: {
       greeting: 'Hi, I\'m',
       subtitle:
-        'Web developer focused on building modern, responsive and functional applications, with experience in Frontend and knowledge in Backend.',
+        'Junior Fullstack Developer with practical Frontend experience, especially with React, JavaScript, HTML, CSS and Firebase, currently expanding my skills across Backend and modern web applications.',
       cta_projects: 'View projects',
       cta_cv: 'Download CV',
       social_github: 'GitHub',
@@ -144,7 +153,7 @@ export const translations = {
         name: 'Ponto Pro',
         description: 'Web application for time tracking and employee/project management',
         problem: 'Simplified management of attendance and project assignment',
-        tech: ['React', 'JavaScript', 'Firebase', 'Firestore', 'GPS'],
+        tech: ['React', 'JavaScript', 'Firebase Auth', 'Firestore', 'GPS', 'HTML', 'CSS', 'Git'],
         view: 'View Project',
         github: 'GitHub',
       },
@@ -152,7 +161,7 @@ export const translations = {
         name: 'Marca Já',
         description: 'Web application for barbershop management and scheduling',
         problem: 'Organization of schedules and service management',
-        tech: ['React', 'JavaScript', 'Firebase', 'CSS'],
+        tech: ['React', 'JavaScript', 'Firebase', 'HTML', 'CSS', 'Git'],
         view: 'View Project',
         github: 'GitHub',
       },
@@ -160,7 +169,7 @@ export const translations = {
         name: 'License System',
         description: 'Web application for license management',
         problem: 'Centralized control of licenses and their validations',
-        tech: ['React', 'JavaScript', 'Firebase', 'APIs'],
+        tech: ['React', 'JavaScript', 'Firebase', 'APIs', 'Git'],
         view: 'View Project',
         github: 'GitHub',
       },
@@ -183,7 +192,8 @@ export const translations = {
         nodejs: 'Developing backend services and applications using JavaScript on the server.',
         typescript: 'Developing safer and more predictable applications through static typing.',
         apis: 'Integration between applications and services through APIs.',
-        firebase: 'Authentication, Firestore, hosting and backend services for web applications.',
+        firebase: 'Firebase Authentication, Firestore and Hosting integrated with React applications.',
+        python: 'A language included in my training and current technology set.',
       },
       database: {
         title: 'Database',
@@ -199,18 +209,24 @@ export const translations = {
     },
     about: {
       title: 'About me',
-      text: 'My journey in technology started in the IT support area, where I developed experience with technical support, hardware, software, computer maintenance and problem solving.\n\nOver time, I directed my career towards software development, deepening my knowledge in web development and building applications using technologies like JavaScript, React, Firebase and other modern tools in the web ecosystem.\n\nCurrently, my focus is on Fullstack development, with special attention to creating modern, responsive and functional interfaces, while continuing to expand my knowledge in Backend, databases, APIs, TypeScript, Node.js and application architecture.\n\nI enjoy transforming problems into simple, functional and well-structured solutions, and I\'m always seeking to learn new technologies through practical projects.',
+      text: 'I started my professional experience in IT support, working with hardware, software, maintenance and user assistance.\n\nIn Portugal, I also gained administrative experience, developing organization and attention to detail. At InforAntunes, I moved into a Frontend Development internship, working on websites and WebApps.\n\nAlongside this experience, I built practical projects such as Ponto Pro, Marca Já and License System to deepen my skills in React, JavaScript and Firebase. I am currently expanding towards Fullstack development through Backend, TypeScript, Node.js, APIs and databases.',
     },
     experience: {
       title: 'Experience',
       it_support: {
-        role: 'IT Technician / IT Support',
-        description: 'Technical support, user assistance, hardware, software, computer maintenance, troubleshooting, remote and on-site support.',
+        role: 'Frontend Development Intern — InforAntunes',
+        description: '2024 – Present · Computer equipment maintenance, hardware and software support, and website and WebApp development.',
       },
       web_dev: {
-        role: 'Web Development / Fullstack',
-        description: 'React, JavaScript, Firebase, application development, APIs, Git, responsive interface development.',
+        role: 'Administrative Assistant — Elis',
+        description: '2023 – 2024 · Document administration, stock control and CMR preparation.',
       },
+      help_desk: {
+        role: 'Help Desk — OLX Brasil / Bom Negócio LTDA',
+        description: '2020 – 2022 · Computer equipment maintenance and hardware and software user support.',
+      },
+      education: 'Bachelor\'s degree in Systems Analysis and Development — in progress · Universidade Carioca · 2019 – Present',
+      secondary_education: '12th grade completed · Escola Estadual Dom Helder · 2013 – 2014',
     },
     contact: {
       title: 'Let\'s connect',
@@ -219,6 +235,8 @@ export const translations = {
       github: 'GitHub',
       linkedin: 'LinkedIn',
       cv: 'Download CV',
+      phone: '+351 964 337 343',
+      location: 'Torres Vedras, Portugal',
     },
   },
   es: {
@@ -239,7 +257,7 @@ export const translations = {
     hero: {
       greeting: 'Hola, soy',
       subtitle:
-        'Desarrollador web enfocado en construir aplicaciones modernas, responsivas y funcionales, con experiencia en Frontend y conocimientos en Backend.',
+        'Desarrollador Junior Fullstack con experiencia práctica en Frontend, especialmente con React, JavaScript, HTML, CSS y Firebase, ampliando actualmente sus conocimientos en Backend y aplicaciones web modernas.',
       cta_projects: 'Ver proyectos',
       cta_cv: 'Descargar CV',
       social_github: 'GitHub',
@@ -251,7 +269,7 @@ export const translations = {
         name: 'Ponto Pro',
         description: 'Aplicación web para control de asistencia y gestión de empleados/proyectos',
         problem: 'Gestión simplificada de asistencia y asignación de proyectos',
-        tech: ['React', 'JavaScript', 'Firebase', 'Firestore', 'GPS'],
+        tech: ['React', 'JavaScript', 'Firebase Auth', 'Firestore', 'GPS', 'HTML', 'CSS', 'Git'],
         view: 'Ver Proyecto',
         github: 'GitHub',
       },
@@ -259,7 +277,7 @@ export const translations = {
         name: 'Marca Já',
         description: 'Aplicación web para gestión y programación de barberías',
         problem: 'Organización de horarios y gestión de servicios',
-        tech: ['React', 'JavaScript', 'Firebase', 'CSS'],
+        tech: ['React', 'JavaScript', 'Firebase', 'HTML', 'CSS', 'Git'],
         view: 'Ver Proyecto',
         github: 'GitHub',
       },
@@ -267,7 +285,7 @@ export const translations = {
         name: 'Sistema de Licencias',
         description: 'Aplicación web para gestión de licencias',
         problem: 'Control centralizado de licencias y sus validaciones',
-        tech: ['React', 'JavaScript', 'Firebase', 'APIs'],
+        tech: ['React', 'JavaScript', 'Firebase', 'APIs', 'Git'],
         view: 'Ver Proyecto',
         github: 'GitHub',
       },
@@ -290,7 +308,8 @@ export const translations = {
         nodejs: 'Desarrollo de servicios y aplicaciones backend utilizando JavaScript en el servidor.',
         typescript: 'Desarrollo de aplicaciones más seguras y predecibles mediante tipado estático.',
         apis: 'Integración entre aplicaciones y servicios a través de APIs.',
-        firebase: 'Autenticación, Firestore, hosting y servicios backend para aplicaciones web.',
+        firebase: 'Firebase Authentication, Firestore y Hosting integrados con aplicaciones React.',
+        python: 'Un lenguaje presente en mi formación y conjunto tecnológico.',
       },
       database: {
         title: 'Database',
@@ -306,18 +325,24 @@ export const translations = {
     },
     about: {
       title: 'Acerca de mí',
-      text: 'Mi trayectoria en tecnología comenzó en el área de soporte de TI, donde desarrollé experiencia en soporte técnico, hardware, software, mantenimiento de computadoras y resolución de problemas.\n\nCon el tiempo, dirigí mi carrera hacia el desarrollo de software, profundizando mis conocimientos en desarrollo web y construyendo aplicaciones utilizando tecnologías como JavaScript, React, Firebase y otras herramientas modernas del ecosistema web.\n\nActualmente, mi enfoque está en el desarrollo Fullstack, con especial atención a la creación de interfaces modernas, responsivas y funcionales, mientras continúo expandiendo mis conocimientos en Backend, bases de datos, APIs, TypeScript, Node.js y arquitectura de aplicaciones.\n\nMe gusta transformar problemas en soluciones simples, funcionales y bien estructuradas, y siempre estoy buscando aprender nuevas tecnologías a través de proyectos prácticos.',
+      text: 'Comencé mi experiencia profesional en soporte de TI, trabajando con hardware, software, mantenimiento y atención a usuarios.\n\nEn Portugal, también adquirí experiencia administrativa, desarrollando organización y atención al detalle. Después, en InforAntunes, pasé a trabajar como becario de desarrollo Frontend, creando sitios web y WebApps.\n\nParalelamente, desarrollé proyectos prácticos como Ponto Pro, Marca Já y Sistema de Licencias para profundizar en React, JavaScript y Firebase. Actualmente estoy ampliando mi camino hacia Fullstack mediante Backend, TypeScript, Node.js, APIs y bases de datos.',
     },
     experience: {
       title: 'Experiencia',
       it_support: {
-        role: 'Técnico de Informática / Soporte de TI',
-        description: 'Soporte técnico, asistencia a usuarios, hardware, software, mantenimiento de computadoras, resolución de problemas, soporte remoto y presencial.',
+        role: 'Becario de Desarrollo Frontend — InforAntunes',
+        description: '2024 – Actualidad · Mantenimiento de equipos informáticos, soporte de hardware y software y desarrollo de sitios web y WebApps.',
       },
       web_dev: {
-        role: 'Desarrollo Web / Fullstack',
-        description: 'React, JavaScript, Firebase, desarrollo de aplicaciones, APIs, Git, desarrollo de interfaces responsivas.',
+        role: 'Auxiliar Administrativo — Elis',
+        description: '2023 – 2024 · Administración de documentos, control de stock y preparación de CMRs.',
       },
+      help_desk: {
+        role: 'Help Desk — OLX Brasil / Bom Negócio LTDA',
+        description: '2020 – 2022 · Mantenimiento de equipos informáticos y soporte a usuarios en hardware y software.',
+      },
+      education: 'Grado en Análisis y Desarrollo de Sistemas — en curso · Universidade Carioca · 2019 – Actualidad',
+      secondary_education: '12.º año completado · Escola Estadual Dom Helder · 2013 – 2014',
     },
     contact: {
       title: 'Conectemos',
@@ -326,6 +351,8 @@ export const translations = {
       github: 'GitHub',
       linkedin: 'LinkedIn',
       cv: 'Descargar CV',
+      phone: '+351 964 337 343',
+      location: 'Torres Vedras, Portugal',
     },
   },
 }
