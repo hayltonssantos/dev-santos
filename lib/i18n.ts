@@ -7,10 +7,10 @@ export const languages = {
 }
 
 export const translations = {
-  pt: {
-    common: {
-      name: 'Haylton Santos',
-      title: 'Junior Fullstack Developer',
+pt: {
+  common: {
+  name: 'Haylton Santos',
+  title: 'Fullstack Developer',
       download_cv: 'Download CV',
       view_projects: 'Ver Projetos',
     },
@@ -25,7 +25,7 @@ export const translations = {
     hero: {
       greeting: 'Olá, eu sou',
       subtitle:
-        'Junior Fullstack Developer com experiência prática em Frontend, especialmente com React, JavaScript, HTML, CSS e Firebase, atualmente ampliando conhecimentos em Backend e aplicações web modernas.',
+        'Fullstack Developer com experiência prática em Frontend, especialmente com React, JavaScript, HTML, CSS e Firebase, atualmente ampliando conhecimentos em Backend e aplicações web modernas.',
       cta_projects: 'Ver projetos',
       cta_cv: 'Download CV',
       social_github: 'GitHub',
